@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "ProofOfWinningHackathon": {
+        "@id": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/main/hackathon/hackathon.jsonld",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://github.com/sadaiv-ci/devid-schemas/blob/main/hackathon/vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "winner": {
+            "@id": "vocab:winner",
+            "@type": "xsd:boolean"
+          },
+          "prizeAmount": {
+            "@id": "vocab:prizeAmount",
+            "@type": "xsd:integer"
+          },
+          "hackathonName": {
+            "@id": "vocab:hackathonName",
+            "@type": "xsd:string"
+          },
+          "dateOfHackathon": {
+            "@id": "vocab:dateOfHackathon",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -6,13 +6,13 @@
       "id": "@id",
       "type": "@type",
       "ProofOfWinningHackathon": {
-        "@id": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/main/hackathon/hackathon.jsonld",
+        "@id": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/hackathon/hackathon.jsonld",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "vocab": "https://github.com/sadaiv-ci/devid-schemas/blob/main/hackathon/vocab.md#",
+          "vocab": "https://github.com/sadaiv-ci/devid-schemas/blob/master/hackathon/vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "winner": {
             "@id": "vocab:winner",

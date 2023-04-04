@@ -118,7 +118,7 @@
           "format": "uri"
         },
         "winner": {
-          "type": "boolean"
+          "type": "integer"
         },
         "prizeAmount": {
           "type": "integer"

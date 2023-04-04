@@ -1,6 +1,6 @@
 # winner
 
-Describes if the user is a winner or not using true / false value
+Describes if the user is a winner or not using 1 FOR TRUE / 0 FOR FALSE value
 
 # prizeAmount
 

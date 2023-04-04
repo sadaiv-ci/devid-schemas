@@ -1,0 +1,33 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "ProofOfCourseCompletion": {
+        "@id": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/course/course.jsonld#ProofOfCourseCompletion",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://github.com/sadaiv-ci/devid-schemas/blob/master/course/vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "completionDate": {
+            "@id": "vocab:completionDate",
+            "@type": "xsd:integer"
+          },
+          "enrollmentNumber": {
+            "@id": "vocab:enrollmentNumber",
+            "@type": "xsd:integer"
+          },
+          "subject": {
+            "@id": "vocab:subject",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}

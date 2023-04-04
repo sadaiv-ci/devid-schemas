@@ -123,9 +123,6 @@
         "prizeAmount": {
           "type": "integer"
         },
-        "hackathonName": {
-          "type": "string"
-        },
         "dateOfHackathon": {
           "type": "integer"
         }

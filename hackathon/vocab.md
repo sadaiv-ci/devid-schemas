@@ -6,10 +6,6 @@ Describes if the user is a winner or not using true / false value
 
 Describes the total prize amount a dev won in the hackathon
 
-# hackathonName
-
-Describes the name of the hackathon
-
 # dateOfHackathon
 
 Describes the date of the hackathon

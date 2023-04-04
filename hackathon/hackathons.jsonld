@@ -5,8 +5,8 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "ProofOfWinningHackathon": {
-        "@id": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/hackathon/hackathons.jsonld#ProofOfWinningHackathon",
+      "ProofOfWinningHackathons": {
+        "@id": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/hackathon/hackathons.jsonld#ProofOfWinningHackathons",
         "@context": {
           "@version": 1.1,
           "@protected": true,

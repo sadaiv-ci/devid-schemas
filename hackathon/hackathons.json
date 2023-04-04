@@ -3,8 +3,8 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/hackathon/hackathon.jsonld",
-      "jsonSchema": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/hackathon/hackathon.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/hackathon/hackathons.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/hackathon/hackathons.json"
     }
   },
   "required": [

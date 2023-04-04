@@ -24,7 +24,7 @@
           },
           "hackathonName": {
             "@id": "vocab:hackathonName",
-            "@type": "string"
+            "@type": "xsd:string"
           },
           "dateOfHackathon": {
             "@id": "vocab:dateOfHackathon",

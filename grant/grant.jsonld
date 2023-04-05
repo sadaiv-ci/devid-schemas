@@ -1,0 +1,42 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "ProofOfGrantRewarded": {
+          "@id": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/grant/grant.jsonld#ProofOfGrantRewarded",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://github.com/sadaiv-ci/devid-schemas/blob/master/grant/vocab.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+          "issueDate": {
+            "@id": "vocab:issueDate",
+            "@type": "xsd:integer"
+          },
+          "reportingDate": {
+            "@id": "vocab:reportingDate",
+            "@type": "xsd:integer"
+          },
+            "amount": {
+              "@id": "vocab:amount",
+              "@type": "xsd:integer"
+            },
+            "title": {
+              "@id": "vocab:title",
+              "@type": "xsd:string"
+            },
+            "transactionHash": {
+              "@id": "vocab:transactionHash",
+              "@type": "xsd:string"
+            }
+          }
+        }
+      }
+    ]
+  }

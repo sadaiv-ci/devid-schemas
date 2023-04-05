@@ -15,6 +15,14 @@ Each course will have the following properties:
 - Enrollment Number
 - Subject 
 
+### Grant
+Each course will have the following properties:
+- issueDate
+- reportingDate
+- amount
+- title
+- transactionHash
+
 based on the schemas Polygon ID issuers can generate claims for the users.
 
 > Planning to add more for courses, events, badges, etc.

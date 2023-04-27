@@ -27,4 +27,4 @@ based on the schemas Polygon ID issuers can generate claims for the users.
 
 > Planning to add more for courses, events, badges, etc.
 
-Backed up on-chain using Sadaiv CI
+Backed up on-chain using Sadaiv CI 🪐

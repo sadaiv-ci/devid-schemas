@@ -1,0 +1,30 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "ProofOfProjects": {
+          "@id": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/project/project.jsonld#ProofOfProjects",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "https://github.com/sadaiv-ci/devid-schemas/blob/master/project/vocab.md#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+            "isForked": {
+                "@id": "vocab:isForked",
+                "@type": "xsd:boolean"
+            },
+            "value": {
+                "@id": "vocab:value",
+                "@type": "xsd:integer"
+            }
+          }
+        }
+      }
+    ]
+  }

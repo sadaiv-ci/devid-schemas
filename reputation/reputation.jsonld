@@ -12,7 +12,7 @@
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "vocab": "https://github.com/sadaiv-ci/devid-schemas/blob/master/reputation/vocab.md#",
+            "vocab": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/blob/master/reputation/vocab.md#",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
 
             "score": {

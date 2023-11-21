@@ -17,11 +17,11 @@
 
             "score": {
                 "@id": "vocab:score",
-                "@type": "xsd:integer"
+                "@type": "xsd:double"
             },
             "calculatedOn": {
                 "@id": "vocab:calculatedOn",
-                "@type": "xsd:integer"
+                "@type": "xsd:double"
             }
           }
         }

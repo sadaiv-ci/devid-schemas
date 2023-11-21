@@ -14,11 +14,11 @@
             "xsd": "http://www.w3.org/2001/XMLSchema#",
 
             "score": {
-                "@id": "vocab:score",
+                "@id": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/reputation/vocab.md#score",
                 "@type": "xsd:double"
             },
             "calculatedOn": {
-                "@id": "vocab:calculatedOn",
+                "@id": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/reputation/vocab.md#calculatedOn",
                 "@type": "xsd:double"
             }
           }

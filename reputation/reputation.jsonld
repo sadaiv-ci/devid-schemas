@@ -8,15 +8,18 @@
           "@id": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/reputation/reputation.jsonld#ProofOfReputation",
           "@context": {
             "@version": 1.1,
-            "vocab": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/reputation/vocab.md#",
+            "id": "@id",
+            "type": "@type",
+            
+            "vocab": "https://github.com/sadaiv-ci/devid-schemas/blob/master/reputation/vocab.md#",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
 
             "score": {
-                "@id": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/reputation/vocab.md#score",
+                "@id": "vocab:score",
                 "@type": "xsd:double"
             },
             "calculatedOn": {
-                "@id": "https://raw.githubusercontent.com/sadaiv-ci/devid-schemas/master/reputation/vocab.md#calculatedOn",
+                "@id": "vocab:calculatedOn",
                 "@type": "xsd:double"
             }
           }
